@@ -1,5 +1,24 @@
 # ML-Project-1-Rock-vs-Mine
-This project aims to classify sonar signals as either rocks or mines. The dataset used for this project is the Sonar dataset from the Kaggle
+This project aims to classify sonar signals as either rocks or mines. The dataset used for this project is the Sonar dataset from the Kaggle.
 
 # Overview
-The Sonar dataset contains 208 observations of sonar signals bouncing off a metal cylinder (mine) and a roughly cylindrical rock. Each observation is a set of 60 numbers in the range 0.0 to 1.0, which represent the energy within a particular frequency band, integrated over a certain period of time.
+This repository contains a machine learning project that classifies rocks vs. mines using logistic regression.
+
+# Dataset
+The dataset used for this project is the Rock vs. Mine (sonar) dataset from kaggle. It consists of 208 observations of sonar signals bouncing off different surfaces. Each observation has 60 features representing the energy within a particular frequency band.
+
+# Requirements
+Python 3
+Jupyter Notebook (optional, for viewing and running the project)
+Google Colab ( preferred )
+
+# Usage
+Open and run the Jupyter Notebook Rock_vs_Mine_Logistic_Regression.ipynb to see the project code and results.
+You can also use the trained model in your own applications.
+
+# Results
+The logistic regression model achieves an accuracy of 83.42% on the train set.
+The logistic regression model achieves an accuracy of 76.19% on the test set.
+
+# Contributing
+Contributions are welcome! Please open an issue or pull request for any changes.
